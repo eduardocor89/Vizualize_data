@@ -53,3 +53,13 @@ print()
 report = "The population change Instabul, Turkey from 1927 to 2017 went from " + str(pop_1927) + " to " + str(pop_2017) + " marking a " + str(round(set_one,2)) + "% annual growth rate between those years. That is, Istanbul grew it's size by almost a quarter EACH year!"
 
 print(report)
+
+
+# So by calculating the percentage, python gives me a number with a bunch of decimals.
+# Since I actually don't need that many, I need to use something that will allow me
+# to round the number. Luckily Python already has
+# a built in function that rounds up the number. 
+# I used it by passing my variable to the round()
+# function and telling it that I only want 2 decimal
+# spaces. 
+# It works like a charm
