@@ -1,0 +1,19 @@
+import matplotlib
+from matplotlib import pyplot as plt
+
+# x- months, y1 lies told by DJT, y2 number of new hatian migrants
+x = [2017, 2018, 2019, 2020, 2021]
+y1 = [0, 2656, 9073, 16905, 30396]
+y2 = [0, 2000, 7000, 10000, 20000]
+
+
+plt.plot(x, y1, color='pink',marker='s')
+plt.plot(x, y2, color='gray',marker='o')
+
+plt.title("Totally fake graph")
+plt.xlabel("Time")
+plt.ylabel("Number")
+
+plt.legend(["Lies", "immigrants"], loc=4)
+
+plt.show()
